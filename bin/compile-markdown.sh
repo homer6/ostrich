@@ -20,13 +20,13 @@ mkdir -p "$COMPILED_DIR"
 
 echo "# Compiled Content" > "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
-echo "This file contains all markdown and JSONL files from the content directory." >> "$OUTPUT_FILE"
+echo "This file contains all markdown, text, and JSONL files from the content directory." >> "$OUTPUT_FILE"
 echo "Generated on: $(date)" >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
 
 file_count=0
 
-find "$CONTENT_DIR" \( -name "*.md" -o -name "*.jsonl" \) -type f | sort | while read -r file; do
+find "$CONTENT_DIR" \( -name "*.md" -o -name "*.txt" -o -name "*.jsonl" \) -type f | sort | while read -r file; do
     relative_path="${file#$CONTENT_DIR/}"
     
     echo "Processing: $relative_path"
@@ -38,6 +38,11 @@ find "$CONTENT_DIR" \( -name "*.md" -o -name "*.jsonl" \) -type f | sort | while
     
     if [[ "$file" == *.jsonl ]]; then
         echo "\`\`\`jsonl" >> "$OUTPUT_FILE"
+        cat "$file" >> "$OUTPUT_FILE"
+        echo "" >> "$OUTPUT_FILE"
+        echo "\`\`\`" >> "$OUTPUT_FILE"
+    elif [[ "$file" == *.txt ]]; then
+        echo "\`\`\`text" >> "$OUTPUT_FILE"
         cat "$file" >> "$OUTPUT_FILE"
         echo "" >> "$OUTPUT_FILE"
         echo "\`\`\`" >> "$OUTPUT_FILE"
