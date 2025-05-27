@@ -1,7 +1,7 @@
 # Compiled Content
 
 This file contains all markdown and JSONL files from the content directory.
-Generated on: Tue 27 May 2025 07:03:19 PDT
+Generated on: Tue 27 May 2025 09:02:15 PDT
 
 ---
 
@@ -1921,6 +1921,44 @@ Director, the National Institutes of Health
 [Signature of Martin A. Makary, MD, MPH]
 Martin A. Makary, MD, MPH
 Commissioner, Food and Drug Administration
+---
+
+## File: news/news_2025-05-27.md
+
+**FOR IMMEDIATE RELEASE**
+
+**Headline: BC Ostrich Farm Vows Appeal After Federal Court Upholds CFIA Cull Order for 400 Birds**
+
+**EDGEWOOD, B.C. – May 27, 2025** – Universal Ostrich Farms Inc. is preparing to appeal a Federal Court decision that upheld the Canadian Food Inspection Agency's (CFIA) order to euthanize its flock of approximately 400 ostriches following an H5N1 avian influenza detection late last year. The May 13, 2025, ruling by Justice Russel Zinn found the CFIA's actions to be reasonable and procedurally fair based on the information available at the time of the initial orders.
+
+The case, which has drawn significant public attention and even international governmental interest, pits the CFIA's mandate to control animal diseases and protect public health and trade against the farm owners' assertions of their flock's unique scientific value and current health.
+
+The situation began in early December 2024 when Universal Ostrich Farms, a 65-acre operation in Edgewood, B.C., primarily managed by two principals with decades of experience, observed respiratory symptoms in some ostriches. This followed reported exposure to wild ducks (Decision, para [29]). After an anonymous tip about multiple ostrich deaths, the CFIA intervened on December 28, 2024, imposing a verbal quarantine (Decision, para [30]). Swab samples collected on December 30 from two carcasses tested positive for H5 avian influenza on December 31 (Decision, paras [31]-[32]). The CFIA issued a "Notice to Dispose" for the entire flock just 41 minutes later, citing its 2022 Event Response Plan (ERP) which operationalizes the "Stamping-Out Policy" (Decision, para [1], [33]).
+
+Universal Ostrich Farms, which transitioned its focus around 2020 from meat production to research involving the extraction of immunoglobulin Y (antibodies) from ostrich eggs for potential human-virus diagnostics (Decision, para [13], [26]), applied for an exemption from depopulation. They argued the flock constituted a "distinct epidemiological unit" with "rare and valuable poultry genetics" (Decision, para [1], [49]). The farm owners also highlighted their long-standing selective breeding program dating back to the 1990s (Decision, para [13], [25]) and their belief that many ostriches had developed natural immunity after a previous illness in 2020 and the recent outbreak (Decision, para [28], [34]; website).
+
+On January 10, 2025, the CFIA denied the exemption request, stating the farm failed to demonstrate a distinct unexposed unit and provided insufficient proof of genetic rarity or value under CFIA's criteria, which the agency's Exemption Committee felt required evidence like breeding books or genomic testing for recognized traits (Decision, para [1], [41], [56], [251]). The farm has maintained on its website, SaveOurOstriches.com, that the birds have been healthy for months since the last reported death on January 15, 2025 (Website; Decision, para [42]).
+
+In his 152-page decision (2025 FC 878), Justice Zinn dismissed the farm's applications for judicial review. He emphasized that the court's role was not to re-decide the case but to assess the reasonableness and procedural fairness of the CFIA's decisions based on the record before the agency at the time (Decision, paras [3], [7]). He found the CFIA's Stamping-Out Policy to be reasonable and consistent with its mandate under the Health of Animals Act and international obligations (Decision, paras [67], [93], [169]).
+
+Key arguments raised by the farm and addressed by Justice Zinn included:
+*   **Procedural Fairness (Dr. French's Report):** The farm argued unfairness because the CFIA's Exemption Committee did not wait for a literature review on avian flu in ostriches it had commissioned on the morning of its January 10 decision. Justice Zinn found this was not a "fatal flaw" as the report, when later submitted, would not have altered the outcome (Decision, paras [233], [239], [241]).
+*   **Application of Policy to Unique Flock:** The farm contended the CFIA unreasonably applied poultry-focused policies to their unique research ostriches. Justice Zinn upheld the CFIA's application, noting its broad discretion (Decision, paras [83]-[84], [194]).
+*   **"Rare and Valuable Genetics" Exemption:** The CFIA, and subsequently Justice Zinn, found the farm did not provide sufficient proof under the policy's criteria (Decision, paras [56], [251]).
+*   **Legitimate Expectation:** The farm argued communications from a CFIA Case Officer created a legitimate expectation regarding the exemption process. Justice Zinn found no "clear, unambiguous, and unqualified" representation that would create such an expectation for a specific outcome (Decision, para [217]-[224]).
+
+The farm owners have announced their intention to appeal Justice Zinn's decision, according to their website.
+
+Adding a new dimension to the case, a letter dated May 23, 2025, from high-ranking U.S. health officials, including the Secretary of Health and Human Services, was sent to the CFIA President. The letter respectfully requests the CFIA consider not culling the flock, citing "significant value in studying this population" for H5N1 natural history, immune longevity, and potential therapeutics. The U.S. officials offered support for long-term research on the ostriches and proposed collaboration on "more nuanced and thoughtful protocols" for controlling avian influenza outbreaks. (Source: `legal/rfk_letter.md`).
+
+Further complicating the cull, the Regional District of Central Kootenay (RDCK) voted on May 15, 2025, to refuse the ostrich carcasses at its landfill until the CFIA re-tests the currently healthy birds and makes the results public (Source: `saveourostriches.com/news/rdck-votes-to-refuse-ostrich-carcasses-at-landfills-until-testing-updated/`).
+
+The CFIA has consistently maintained that its actions are necessary to protect animal health, public health, and Canada's international trade status, aligning with WOAH guidelines. The court ruling also noted that the farm could be eligible for compensation up to $3,000 per ostrich under existing regulations (Decision, para [85], [271]).
+
+The future of the Universal Ostrich Farms flock remains uncertain as legal proceedings continue and international scientific interest grows.
+
+---
+**References are to paragraph numbers in Justice Zinn's decision (2025 FC 878) or specific file names from the "Compiled Content" where the information originates.**
 ---
 
 ## File: website/dataset_website-content-crawler_2025-05-27_06-59-33-389.jsonl
