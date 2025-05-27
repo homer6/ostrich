@@ -42,3 +42,7 @@ When working with this repository:
 - The JSONL file contains structured web crawl data
 - PDF contains official court documentation
 - Large text files may require chunked reading approaches
+
+## Commands
+
+- `compile` - Run `./bin/compile-markdown.sh` to compile all content from the repository into a single document
