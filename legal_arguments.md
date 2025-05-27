@@ -67,3 +67,4 @@ These are complex legal arguments that require careful development with experien
 
 
 
+H5N1 is unavoidable .... what are we going to do? Cull all of the birds in Canada?
