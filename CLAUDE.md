@@ -6,20 +6,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repository contains research materials and documentation related to an H5N1 avian influenza case involving ostrich farming in Canada. The primary focus is a legal case where CFIA ordered the culling of ostriches, and the farm owners are fighting to preserve surviving birds for scientific research.
 
-## Key Files and Structure
+## Directory Structure
 
-- `JR-T-294-25-and-T-432-25-Final.pdf` - Court decision document
-- `legal_arguments.md` - Legal strategies and arguments for the case
-- `h5n1_status.md` - Comprehensive H5N1 status report for North America (May 2025)
-- `decision.md` - Extracted court decision content (very large file)
-- `decision_extracted.md` - Processed version of court decision
-- `dataset_website-content-crawler_2025-05-27_06-59-33-389.jsonl` - Website crawl data
+- `content/legal/` - Legal documents and court materials
+  - `JR-T-294-25-and-T-432-25-Final.pdf` - Court decision document
+  - `legal_arguments.md` - Legal strategies and arguments for the case
+  - `decision.md` - Extracted court decision content (very large file)
+  - `decision_extracted.md` - Processed version of court decision
+- `content/website/` - Research content and website materials
+  - `h5n1_status.md` - Comprehensive H5N1 status report for North America (May 2025)
+  - `dataset_website-content-crawler_2025-05-27_06-59-33-389.jsonl` - Website crawl data
 
 ## Document Analysis Approach
 
 When working with this repository:
 
-1. **Large Files**: `decision.md` is extremely large (25,963+ tokens). Use offset/limit parameters when reading or use Grep tool for specific content searches.
+1. **Large Files**: `content/legal/decision.md` is extremely large (25,963+ tokens). Use offset/limit parameters when reading or use Grep tool for specific content searches.
 
 2. **Legal Content**: The legal arguments focus on challenging CFIA's "stamping out" policy for ostriches, emphasizing their research value and potential immunity.
 
